@@ -40,7 +40,7 @@ const generateResponse = (incomingChatLi) => {
         })
         .catch(error => {
             messageElement.classList.add("error");
-            messageElement.textContent = "Oops! Something went wrong. Please try agin later.🤣";
+            messageElement.textContent = "Wa gha sir t9awed";
         }).finally(() => chatBox.scrollTo(0, chatBox.scrollHeight));
 }
 
